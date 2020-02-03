@@ -1,0 +1,43 @@
+#container{
+    position: absolute;
+    box-sizing: border-box;
+    border-style: ridge;
+    width: 1000px;
+    height: 500px;
+}
+.header{
+    background-color: gray;
+    height: 8%;
+    font-size: 20px;
+    text-align: center;
+    font-weight: bold;
+    padding-top: 10px;
+}
+.view{
+    box-sizing: border-box;
+    border-style: ridge;
+    float: left;
+    width: 50%;
+    height: 100%;
+}
+.hide{
+    float: right;
+}
+.menu-item{
+    margin: 10px 10px 10px 110px;
+    padding: 100px;
+}
+
+.page1{
+    transform: translateX(0);
+    transition: transform .5s;
+}
+.page2{
+    transform : translateX(-50%);
+    transition: transform .5s;
+
+}
+.back{
+    float: left;
+    margin-left: 10px;
+}
